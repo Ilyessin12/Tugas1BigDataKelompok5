@@ -1,15 +1,10 @@
-# Tugas 1 Kelompok 5 Big Data
-## Struktur FOlder dan Penjelasan
-📦 Tugas1Kelompok5
-┣ 📂 Scrapping_Berita
-┃ ┣ 📜 
-┃ ┣ 📜 
-┃ ┗ 📜 
-┣ 📂 Scrapping_Laporan ➝ Data laporan keuangan dari website [idx.co.id]([https://github.com/](https://www.idx.co.id/id/perusahaan-tercatat/laporan-keuangan-dan-tahunan)) 
-┃ ┣ 📜 dataset.csv
-┃ ┗ 📜 raw_data.json
-┃ 📂 Scrapping_yFinance
-┃ ┣ 📜 emiten_list.json ➝ list emiten yang terdaftar di BEI (Hasil scrapping)
-┃ ┣ 📜 
-┃ ┗ 📜
-┗ 📜 README.md
+## Penjelasan masing-masing folder
+
+### Scrapping_yfinance
+Berisikan kode program scrapper yfinance dan list emiten dalam jupyter notebook beserta hasil file scraping dari API yfinance dan list emiten dari IDX dalam bentuk json
+
+### Scrapping_Berita
+Berisikan kode program scrapper berita dan list emiten dalam jupyter notebook beserta hasil file scraping berita dari iqplus dan list emiten dari IDX dalam bentuk json. Untuk json nya sendiri terpisah dalam beberapa bagian
+
+### Scrapping_Berita
+Berisikan kode program scrapper laporan keuangan dan list emiten dalam jupyter notebook beserta hasil file scraping laporan keuangan dari IDX dan list emiten dari IDX dalam bentuk json. Untuk json nya sendiri terpisah dalam beberapa bagian
